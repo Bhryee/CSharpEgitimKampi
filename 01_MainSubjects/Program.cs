@@ -10,66 +10,70 @@ namespace _01_MainSubjects
     {
         static void Main(string[] args)
         {
-            #region YazdırmaKomutlari
-            //Console.WriteLine("dünya");
-            //Console.Write("merhaba");
+            #region Yazdırma Komutlari
+            Console.WriteLine("dünya");
+            Console.Write("merhaba");
 
-            //Console.WriteLine("****Yemek Kategorileri****");
-            //Console.WriteLine();
-            //Console.WriteLine("1-Çorbalar");
-            //Console.WriteLine("2-Salatalar");
-            //Console.WriteLine("1-Tatlılar");
+            Console.WriteLine("****Yemek Kategorileri****");
+            Console.WriteLine();
+            Console.WriteLine("1-Çorbalar");
+            Console.WriteLine("2-Salatalar");
+            Console.WriteLine("1-Tatlılar");
 
             #endregion
 
+
+                
 
             #region String Degiskenler
 
-            //string name;
-            //name = "Bahriye";
-            //Console.Write(name);
+            string name;
+            name = "Bahriye";
+            Console.Write(name);
 
-            //string customerName;
-            //string customerSurname;
-            //string customerPhone;
-            //string customerEmail, district,city;
+            string customerName;
+            string customerSurname;
+            string customerPhone;
+            string customerEmail, district,city;
 
-            //customerName = "Bahriye";
-            //customerSurname = "İşgör";
-            //customerPhone = "06785675656";
-            //customerEmail = "bahriyeisgor@gmail.com";
-            //district = "Selçuklu";
-            //city = "Konya";
+            customerName = "Bahriye";
+            customerSurname = "İşgör";
+            customerPhone = "06785675656";
+            customerEmail = "bahriyeisgor@gmail.com";
+            district = "Selçuklu";
+            city = "Konya";
 
-            //Console.WriteLine("****Rezervasyon Kartı****");
-            //Console.WriteLine();
-            //Console.WriteLine("-------------------------------");
-            //Console.WriteLine("Müşteri: " + customerName+ " " + customerSurname);
-            //Console.WriteLine("İletişim: " + customerPhone);
-            //Console.WriteLine("Email: " + customerEmail);
-            //Console.WriteLine("Adres: " + district + "/" + city);
-            //Console.WriteLine("-------------------------------");
-            //Console.WriteLine();
+            Console.WriteLine("****Rezervasyon Kartı****");
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Müşteri: " + customerName+ " " + customerSurname);
+            Console.WriteLine("İletişim: " + customerPhone);
+            Console.WriteLine("Email: " + customerEmail);
+            Console.WriteLine("Adres: " + district + "/" + city);
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine();
 
-            //customerName = "Elif";
-            //customerSurname = "Aksu";
-            //customerPhone = "06785675677";
-            //customerEmail = "elifaksu@gmail.com";
-            //district = "Selçuklu";
-            //city = "Konya";
+            customerName = "Elif";
+            customerSurname = "Aksu";
+            customerPhone = "06785675677";
+            customerEmail = "elifaksu@gmail.com";
+            district = "Selçuklu";
+            city = "Konya";
 
 
-            //Console.WriteLine("-------------------------------");
-            //Console.WriteLine("Müşteri: " + customerName + " " + customerSurname);
-            //Console.WriteLine("İletişim: " + customerPhone);
-            //Console.WriteLine("Email: " + customerEmail);
-            //Console.WriteLine("Adres: " + district + "/" + city);
-            //Console.WriteLine("-------------------------------");
-            //Console.WriteLine();
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Müşteri: " + customerName + " " + customerSurname);
+            Console.WriteLine("İletişim: " + customerPhone);
+            Console.WriteLine("Email: " + customerEmail);
+            Console.WriteLine("Adres: " + district + "/" + city);
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine();
 
             #endregion
 
 
+
+                
             #region Int Degiskenler
 
             int hambugerPrice = 300;
@@ -117,9 +121,6 @@ namespace _01_MainSubjects
             Console.WriteLine("Limonata Tutarı : " + totalLemonadePrice + "TL");
             Console.WriteLine();
             Console.WriteLine("Toplam ödenecek tutar: " + totalPrice);
-
-
-
 
             #endregion
 
