@@ -111,7 +111,7 @@ namespace _02_variables
                 
             #region Klavyeden Tam Sayı Girisleri Ve Donusumler
 
-            C# veri girişlerinin tamamını string olarak düşünür
+            //C# veri girişlerinin tamamını string olarak düşünür
 
             int shoesPrice, computerPrice, chairPrice, tvPrice;
             shoesPrice = 1000;
